@@ -57,8 +57,15 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 <img src="https://github.com/GuoQWu/RNN-based-MPC/assets/85721266/418a7474-f8ff-4eb9-bae9-a3adff794d53" width="600" height="250">
 </p>
 
+## 3. RNN-based MPC for CSTR
+- This repository contains two versions of our algorithm.
 
-## 3. Libraries and Tools used
+- The first version of the MPC operates without Lyapunov constraints [Code](https://github.com/GuoQWu/RNN-based-MPC/blob/main/MPC_RNN_CSTR_without%20Lyapunov%20constraints.ipynb). 
+
+- The second version incorporates Lyapunov-based constraints to ensure system stability and safety. To enhance computational efficiency, we made simplifications to the Lyapunov-based constraints in this code. Specifically,  we use the constraint, dot_V(x,u) < C V instead of dot_V (x,u) < dot_V(x, \phi(x)) to make sure dot_V is negative, where C is a constant greater than 0. [Code](https://github.com/GuoQWu/RNN-based-MPC/blob/main/LMPC_RNN_CSTR.ipynb)
+
+
+## 4. Libraries and Tools used
 
 [Tensorflow](https://www.tensorflow.org/): Deep learning framework used for building and training neural networks.
 
@@ -69,7 +76,7 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 [scikit-learn](https://scikit-learn.org/): Machine learning library for Python used for data analysis and modeling.
 
 
-## 4. Citation
+## 5. Citation
 
 The demonstration of these examples are adapted from the following literature work:
 
