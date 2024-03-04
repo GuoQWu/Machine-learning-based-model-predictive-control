@@ -36,9 +36,9 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 ![image](https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/f41bd653-cb8d-43de-950e-71946ddc79d8)
 
-- The above data sample is for a dataset with n samples with 6 internal time-steps for each sample.
+- The above data sample is for a dataset with n samples with 10 internal time-steps for each sample.
 
-- The code for demonstrating the PIRNN model for the CSTR is available [here](https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/blob/main/CSTR%20PI-RNN%20Example.ipynb)
+- The code for generating the data set for RNN model is available [here]
 
 
 ## 2. Recurrent Neural Network (RNN) Structure
@@ -56,7 +56,7 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 ## 3. Libraries and Tools used
 
-[Tensorflow]((https://www.tensorflow.org/): Deep learning framework used for building and training neural networks.
+[Tensorflow](https://www.tensorflow.org/): Deep learning framework used for building and training neural networks.
 
 [Matplotlib](https://matplotlib.org/): Python plotting library for creating visualizations.
 
