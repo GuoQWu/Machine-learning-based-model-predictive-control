@@ -5,14 +5,14 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 - Let us consider a second-order, exothermic, irreversible reaction from A to B
 
 
-<img src="https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/c1337cf1-eb78-47d7-b95b-1ce399d0ad10" alt = " Figure: Schematic diagram of a CSTR" width="250" height="250">
+
 
 
 
 - The First Principle equation for this system are as follows:
 
-
-     <img src="https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/da9e944b-1b0c-4694-8b48-2a21f49d55ed" width="300" height="90">
+     
+     <img src="file:///home/wulab4/Desktop/Guoquan/307226235-c1337cf1-eb78-47d7-b95b-1ce399d0ad10.png" width="300" height="90">
 
 
 
