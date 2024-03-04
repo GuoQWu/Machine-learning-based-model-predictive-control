@@ -40,7 +40,7 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 - The above data sample is for a dataset with n samples with 10 internal time-steps for each sample.
 
-- The code for generating the data set for RNN model is available [here]
+- The code for generating the data set for RNN model is available [here](https://github.com/GuoQWu/RNN-based-MPC/blob/main/RNN_CSTR.ipynb)
 
 
 ## 2. Recurrent Neural Network (RNN) Structure
