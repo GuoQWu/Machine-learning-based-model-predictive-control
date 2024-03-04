@@ -10,9 +10,10 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 
 - The First Principle equation for this system are as follows:
+  
 
      
-     <img src="file:///home/wulab4/Desktop/Guoquan/307226235-c1337cf1-eb78-47d7-b95b-1ce399d0ad10.png" width="300" height="90">
+     <img src="https://github.com/GuoQWu/RNN-based-MPC/assets/85721266/ccfdf6cd-f984-4232-8dd4-1b1c4e5e84e4" width="300" height="300">
 
 
 
@@ -34,7 +35,8 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 - The generated dataset with the input and output will look like:
 
-![image](https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/f41bd653-cb8d-43de-950e-71946ddc79d8)
+![image](https://github.com/GuoQWu/RNN-based-MPC/assets/85721266/e0e9f633-f1c6-4e22-922f-59ba22f60b0c)
+
 
 - The above data sample is for a dataset with n samples with 10 internal time-steps for each sample.
 
@@ -49,8 +51,10 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 - The RNN model input and output are as follows:
     - Input: System initial state variable 𝐱_𝟎(𝑡_𝑘), and control variables 𝐮(𝑡_𝑘).
     - Output: Future state dynamics 𝐱(𝑡_𝑘+Δ) are predicted for one sampling period ∆.
+
+
 <p align="center">
-<img src="https://github.com/Keerthana-Vellayappan/Demonstration-of-Physics-Informed-Machine-Learning-Model/assets/160836399/332a1da6-9b89-4e04-a6b3-1b5c90185319" width="600" height="250">
+<img src="https://github.com/GuoQWu/RNN-based-MPC/assets/85721266/418a7474-f8ff-4eb9-bae9-a3adff794d53" width="600" height="250">
 </p>
 
 
