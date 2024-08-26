@@ -10,8 +10,8 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 
 - The First Principle equation for this system are as follows:
-- $$\frac{dC_A}{dt} = \frac{F}{V} (C_{A0} - C_A) - k_0 e^{-\frac{E}{RT}} C_A^2$$
-- $$\frac{dT}{dt} = \frac{F}{V} (T_0 - T) + \frac{-\Delta H}{\rho_L C_P} k_0 e^{-\frac{E}{RT}} C_A^2 + \frac{Q}{\rho_L C_P V} $$
+
+  ![fp](https://github.com/user-attachments/assets/d0da2dff-9f8f-428c-bc7a-e553df876acf)
 
   
 
