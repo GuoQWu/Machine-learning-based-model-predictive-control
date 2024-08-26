@@ -65,7 +65,7 @@ A CSTR example is used to illustrate the application of LMPC using RNN models to
 
 - The first version of the MPC operates without Lyapunov constraints [Code](https://github.com/GuoQWu/RNN-based-MPC/blob/main/MPC_RNN_CSTR_without%20Lyapunov%20constraints.ipynb). 
 
-- The second version incorporates Lyapunov-based constraints to ensure system stability and safety. To enhance computational efficiency, we made simplifications to the Lyapunov-based constraints in this code. Specifically,  we use the constraint, dot_V(x,u) < C V instead of dot_V (x,u) < dot_V(x, \phi(x)) to make sure dot_V is negative, where C is a constant greater than 0. [Code](https://github.com/GuoQWu/RNN-based-MPC/blob/main/LMPC_RNN_CSTR.ipynb)
+- The second version incorporates Lyapunov-based constraints to ensure system stability and safety. To enhance computational efficiency, we made simplifications to the Lyapunov-based constraints in this code. Specifically,  we use the constraint, dot_V(x,u) < C V instead of dot_V (x,u) < dot_V(x, \phi(x)) to make sure dot_V is negative, where C is a constant smaller than 0. [Code](https://github.com/GuoQWu/RNN-based-MPC/blob/main/LMPC_RNN_CSTR.ipynb)
 
 
 ## 4. Libraries and Tools used
